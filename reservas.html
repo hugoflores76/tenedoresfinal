@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tenedores</title>
+    <link rel="stylesheet" href="estilos/estiloreserva.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+</head>
+
+<body >
+    <header>
+        <nav>
+            <div>
+                <a href="index.html">INICIO</a>
+            </div>
+            <div>
+                <a href="carta.html">MENU</a>
+            </div>
+            <div>
+                <a href="RESERVAS.html">RESERVAS</a>
+            </div>
+        </nav>
+        <div>
+            <img src="imagenes/Logo Club del tenedor2-01.png" alt="logo" class="logo">
+        </div>
+    </header>
+    <div class="viñeta">
+        <img src="imagenes/separador1.png" alt="separador" class="separador1">
+    </div>   
+           <!--  <form id="formulario" onreset="resetear()">
+                <h3>edad</h3>
+                <input type="text" name="edad" id="numero" >
+                <input type="button" value="Validar edad " onclick="validar()" onreset="resetear()"> 
+                <br>
+                <h3 >Nombre</h3>
+                <input type="text" name="nombre"  id="nombre"  onblur="salir()">
+                <br>
+                <h3>Apellido</h3> 
+                <input type="text" name="apellido" id="apellido" >
+                <h3>Contraseña</h3>
+                <br>
+              
+          onkeyup="textolargo(event)" 
+                
+                <input type="reset" value="reset" id="reset" >
+                <input type="submit" value="submit">
+
+            </form> -->
+     <form class="contenform" name="formall">
+                <div class="cero">
+                    <h1>FORMULARIO</h1>
+                </div>
+                <div class="uno">
+                    <h3>Nombre</h3>
+                    <i class="fas fa-user"></i>
+                    <input  type="text" name="nombre" id="nombre" maxlength="50" >
+                </div>
+            
+                <div class="dos">
+                    <h3>nick</h3>
+                    <i class="fas fa-user-circle"></i>
+                    <input type="text" name="nick" id="nick" maxlength="6">
+                    <h3>Paswoord</h3>
+                    <i class="fas fa-key"></i>
+                    <input type="password" name="pass" id="pass" maxlength="10" onblur="validarñ()" >   </div>
+            
+                <div class="tres">
+                    <h3>Género</h3>
+                    <input class="radio" type="radio" name="genero" id="femenino" checked>
+                    <i class="fas fa-female">femenino</i>
+                    <input class="radio" type="radio" name="genero" id="masculino">
+                    <i class="fas fa-male">masculino</i>
+                    <input class="radio" type="radio" name="genero" id="otro">
+                    <i class="fas fa-users">otro</i>
+                </div>
+                <div class="cuatro">
+                    <h3>fecha de nacimiento</h3>
+                    <input type="date" name="" id="fecha" min="1950-01-01" max="2018-10-25">
+                </div>
+            
+                <div class="cinco">
+                    <h3>Teléfono</h3>
+                    <i class="fas fa-phone-volume"></i>
+                    <input type="tel" name="telefono" id="tel" maxlength="20">
+                    <h3>Email</h3>
+                    <i class="fas fa-at"></i>
+                    <input type="email" name="email" id="email1" onblur="validarcorreo1()">
+                    <br><br>
+                    <i class="fas fa-at last"></i>
+                    <input type="email" name="email2" id="email2" onblur="validarcorreo2()">
+                </div>
+            
+                <div class="seis">
+                    <i class="fas fa-running"></i>
+                    <h3>Aficiones</h3>
+                    <select name="Aficiones" size="3" id="afi">
+                        <option value="futbol">futbol</option>
+                        <option value="ajedrez">ajedrez</option>
+                        <option value="lecturat">Lectura</option>
+                        <option value="cine">Cine y tv</option>
+                    </select>
+                </div>
+                <div class="siete">
+                    <h3>Opciones</h3>
+                    <input type="checkbox" name="op1" id="op1" checked>
+                    <h4>Envienme ofertas</h4>
+            
+                    <input type="checkbox" name="op2" id="op2">
+                    <h4>Notificacion por correo</h4>
+            
+                    <input type="checkbox" name="op3" id="op3">
+                    <h4>Leí terminos y condiciones</h4>
+            
+                    <button class="reset" type="reset">reset</button>
+                    <button class="enviar" type="button" onclick="validarf()">enviar</button>
+            
+                </div>
+            
+            
+            
+     </form>
+           
+    <div class="video" >
+        <video controls onplay="myFunction()">
+            <source src=""
+                    type="video/mp4">
+        </video> 
+    </div>      
+
+    
+    <footer class="footer">
+        <div>
+            <img src="imagenes/icono1.png" alt="telefono">
+            <h4>555-55-55</h4>
+        </div>
+        <div>
+            <img src="imagenes/icono2.png" alt="wathapp">
+            <h4>310-370-54-89</h4>
+        </div>
+        <div>
+            <img src="imagenes/icono3.png" alt="tweter">
+            <h4>@tenedores</h4>
+        </div>
+        <div>
+            <img src="imagenes/icono4.png" alt="Faceboock">
+            <h4>mistenedores</h4>
+        </div>
+    </footer>
+<script src="main.js"></script>
+</body>
+
+</html>

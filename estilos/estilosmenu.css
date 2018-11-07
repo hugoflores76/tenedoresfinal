@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+     width: 100vw; 
+    height: 1500px;
+     background: -webkit-linear-gradient(left, rgba(96,56,19,1) 0%,
+     rgba(96,56,19,1) 13%,
+      rgba(250,236,33,1) 99%,
+     rgba(250,236,33,1) 100%);
+     z-index: 2;
+}
+body{
+   width: 100vw; 
+    height: 1500px;
+     background-image: url("../imagenes/fondo2.png");
+     background-size: cover;
+    background-repeat: no-repeat;     
+     background-color: transparent;      
+}
+header{     
+  background-image: url("../imagenes/banner.gif");
+  background-size: cover;
+    
+    display: flex;
+    justify-content: space-around;
+    
+   
+
+}
+nav{  
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+}
+nav div{
+    height: 60px;
+    width: 310px;
+    background-image: url("../imagenes/banner1.png");
+    background-size: cover;
+    background-position: -20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav div a{
+   height:60px;
+    width: 310px;
+    text-align: center;   
+    font-size: 30px;
+   text-decoration: none;
+   color: rgb(12, 11, 11);
+    font-weight: bold;
+   
+}
+.contenlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+            
+}
+.logo{
+    
+     height: 340px;
+     background-color: rgba(240, 248, 255, 0.644);
+     border-radius: 50%;
+     
+     
+    }
+
+.viñeta{     
+     margin-top: 10px;
+     display: flex;
+     justify-content: center;     
+}
+.separador1{
+    width: 70%;
+    height: 40px;        
+     box-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section{   
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+.row{
+  
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.pescados{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.cont{
+    position: relative;  
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     flex-direction: column;
+
+}
+.fondo{
+position: absolute;
+width: 100%;
+height: 10%;
+background-color: rgba(10, 10, 10, 0.486);
+bottom: 0;
+text-align: center;
+border-top: 2px solid black;
+border-top-left-radius: 15Px;
+border-top-right-radius: 15px;
+transition: height 1s linear;
+overflow: hidden;
+}
+.fondo:hover{
+    height: 50%;
+    transition: height 1s linear;   
+}
+.fondo h4{
+     font-family: 'Srisakdi', cursive;
+     font-style: bold;
+    font-size: 32px;
+    color:white;
+    font-weight: bold;
+}
+.fondo h5{
+    font-family: 'Srisakdi', cursive;
+    
+    font-size: 18px;
+    color:white;
+    text-align: justify;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.imagenes{
+
+    width: 300px;
+   height: 300px;
+ 
+     border-radius: 50%;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: bold;
+  
+
+}
+h2{
+    padding-top: 10px;
+    
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+   text-shadow: 5px 4px 17px rgba(0, 0, 0, 0.84);
+  
+
+}
+div p{
+      width: 300px;
+   height: 300px;
+   font-size: 27px;
+   text-align: justify;
+   font-style: italic;
+ border: 13px solid transparent;
+border-image: url('../imagenes/leneaborde4.png') 30  stretch;
+}
+.footer{  
+   width: 100vw;
+    height: 100px;
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 50px;
+}
+ .foot{
+        width: 100%;
+        height: 100%;      
+}
+.foot .col-12{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   
+}
+.footer div img{
+    width: 50px;
+    height: 50px;
+  
+      
+}
+.footer div h4{
+      
+      font-size: 20px;
+}
